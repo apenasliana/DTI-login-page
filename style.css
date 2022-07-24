@@ -1,0 +1,212 @@
+.home{
+    position: absolute;
+    width: 1440px;
+    height: 1392px;
+    left: 0px;
+    top: 0px;
+
+}
+.content{
+    Top: 115.67px;
+    Left: 447px;
+    margin: auto;
+    width: 546px;
+    height: 255.66px;
+    order: 0;
+    flex-grow: 0;
+}
+
+.content img{
+
+    left: 34.62%;
+    right: 34.63%;
+    top: 0%;
+    bottom: 58.75%;
+    
+}
+.content h2 {
+    width: 382px;
+    height: 46px;
+    left: 81px;
+    top: 136.66px;
+
+    /* Headings/H2 / BOLD */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    /* identical to box height, or 135% */
+
+    text-align: center;
+
+    /* Neutral/800 */
+
+    color: #170F49;
+}
+
+.content p{
+    width: 546px;
+    height: 60px;
+    left: 0px;
+    top: 195.66px;
+    
+    /* Paragraph/Regular */
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    
+    text-align: center;
+    
+    /* Neutral/600 */
+    
+    color: #6F6C90;
+}
+/*===================== CARD ==============================*/
+.card{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 533px;
+    height: 649px;
+
+    background: #FFFFFF;
+    box-shadow: 8.32785px 8.32785px 24.9835px rgba(2, 2, 70, 0.15);
+    border-radius: 31.2294px;
+
+}
+.card .login {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 79px;
+    gap: 12px;
+
+    width: 374.75px;
+    height: 140.64px;
+}
+.card .login form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 374.75px;
+    height: 45.82px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.card .login #confirm{
+    display: flex;
+    padding: 0px;
+    border: none;
+    width: fit-content;
+
+    align-items: center;
+    justify-content: center;
+
+    filter: drop-shadow(8.32785px 8.32785px 24.9835px rgba(2, 2, 70, 0.15));
+    border-radius: 8px;
+}
+
+/* --- social buttons --- */
+.social-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 79px;
+    padding-bottom: 30px;
+
+
+
+    width: 374.75px;
+    height: 247.28px;
+}
+
+.card p {
+
+    width: 298px;
+    height: 25px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.6147px;
+    line-height: 25px;
+    /* identical to box height, or 160% */
+
+    text-align: center;
+
+    /* Secondary 2 */
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======================blob behavior ====================*/
+.blobdown{
+    position: absolute;
+    width: 881.15px;
+    height: 832.02px;
+    left: 1440px;
+    top: 510.85px;
+
+    opacity: 0.8;
+    transform: rotate(90deg);
+}
+.blobup{
+    position: absolute;
+    width: 881.15px;
+    height: 832.02px;
+    left: 832.02px;
+    top: 0px;
+
+    opacity: 0.8;
+    transform: rotate(90deg);
+}
