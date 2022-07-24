@@ -8,8 +8,9 @@ const urlParams = new URLSearchParams(queryString)
 fetch("validator.json").then(res=>{
     res.json().then(data => {
         if (urlParams.get('token') != data.token) {
-            // window.location.replace("/DTI-login-page/")
-            console.log(data)
+            window.location.replace("/DTI-login-page/")
         }
+        console.log(urlParams.get('token'))
+        console.log(data)
     })
 })

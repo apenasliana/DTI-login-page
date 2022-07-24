@@ -5,7 +5,7 @@ function autenticacao(){
     .then(res=>{
         res.json().then(data => {
             if (data.username == username && data.password == password) {
-                window.location.href = `/DTI-login-page/perfil.html/?token=${data.token}`;
+                window.location.href = `/DTI-login-page/perfil.html?token=${data.token}`;
 
             }else{
                 document.getElementById("email").classList.add('loginError');
