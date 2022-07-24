@@ -1,4 +1,3 @@
-
 function autenticacao(){
     const username = document.getElementById("email").value
     const password = document.getElementById("senha").value
@@ -6,10 +5,11 @@ function autenticacao(){
     .then(res=>{
         res.json().then(data => {
             if (data.username == username && data.password == password) {
-                window.location.href = "/pages/perfil";
+                window.location.href = `/pages/perfil/index.html/?token=${data.token}`;
 
             }else{
-                alert("ta doido")
+                document.getElementById("email").classList.add('loginError');
+                document.getElementById("senha").classList.add('loginError');
             }
     }).catch(error =>{
         console.log(error)
@@ -25,6 +25,11 @@ function autenticacao(){
     // body.append('userName','guildafront@FELChagashotmail.onmicrosoft.com)
     // body.append('password', '94Pgyh1UV7Te')
 }
-function logout(){
-    console.log("deslogar")
-}
+document.getElementById("email").addEventListener("click",event =>{
+    document.getElementById("email").classList.remove('loginError');
+
+
+})
+document.getElementById("senha").addEventListener("click",event =>{
+    document.getElementById("senha").classList.remove('loginError');
+})
