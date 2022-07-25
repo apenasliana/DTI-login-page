@@ -14,7 +14,7 @@ body {
 #container {
     min-height:100%;
     position:relative;
-    padding-bottom: 130px;   /* Height of the footer */
+    padding-bottom: 130px;  
 
  }
 .wrapper {
@@ -40,6 +40,9 @@ body {
     align-items: center;
     width: 533px;
 }
+.logoimg {
+    height: 168px;
+}
 
 .content h2 {
     margin-top: 0;
@@ -49,7 +52,6 @@ body {
     font-weight: 700;
     font-size: 34px;
     line-height: 46px;
-    /* identical to box height, or 135% */
 
 
     color: #170F49;
@@ -62,11 +64,9 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
-    /* or 167% */
 
     text-align: center;
 
-    /* Neutral/600 */
 
     color: #6F6C90;
 }
@@ -86,39 +86,21 @@ body {
 .card p {
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
+    font-weight: 500;
+    font-size: 20px;
     line-height: 25px;
-    /* identical to box height, or 160% */
     text-align: center;
-    /* Secondary 2 */
 
     color: rgba(0, 0, 0, 0.5);
 }
-.card .login input {
 
-    width: 260px;
-    height: 30px;
-
-    text-align: center;
-    /* White */
-
-    background: #FFFFFF;
-    /* Secondary/Color 1 */
-
-    border: 2px solid #EFF0F7;
-    box-shadow: 8.32785px 8.32785px 24.9835px rgba(2, 2, 70, 0.05);
-    border-radius: 8.32785px;
-
-
-}
 
 .card .login form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 12px;
 }
+
 .card .login #confirm{
     display: flex;
     flex-direction: row;
@@ -136,58 +118,15 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height, or 150% */
-
-
-    /* White */
 
     color: #FFFFFF;
 }
-
-.card .login .loginError {
-    border: 3px solid #db4e4e;
-    border-radius: 8.32785px;
+#logado{
+    font-weight: 700;
+    font-size: 20px;
+    color: forestgreen;
 }
-/* ========================== SOCIAL BUTTONS (in card)======================= */
-.card .social-buttons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
-    padding-bottom: 12px;
-    
-}
-.card .s-buttons{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
 
-    width: 374.75px;
-    height: 52.82px;
-
-
-    /* White */
-    background: #FFFFFF;
-    /* Secondary */
-    
-    border: 2px solid #EFF0F7;
-    box-shadow: 8.32785px 8.32785px 24.9835px rgba(2, 2, 70, 0.05);
-    border-radius: 8.32785px;
-}
-.card .s-buttons p{
-    
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18.7377px;
-    line-height: 31px;
-    /* identical to box height, or 167% */
-
-    /* Primary */
-
-    color: #020246;
-}
 
 /* ========================= Footer ======================*/
 #footer {
@@ -204,4 +143,8 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+ }
+ 
+ #footer img {
+     height: 73px;
  }

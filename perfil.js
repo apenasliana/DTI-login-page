@@ -10,7 +10,7 @@ fetch("validator.json").then(res=>{
         if (urlParams.get('token') != data.token) {
             window.location.replace("/DTI-login-page/")
         }
-        console.log(urlParams.get('token'))
-        console.log(data)
+        document.getElementById("logado").classList.add('logado');
+
     })
 })
