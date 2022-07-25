@@ -11,6 +11,8 @@
 
 # Explicação do projeto:
 
+
+## Pagina de Login
 Foi criada uma pagina de login, com um usuário e senha hardcoded.
 Utilizando a [URL de acesso](https://apenasliana.github.io/DTI-login-page/) é possivel visualizar a pagina de login.
 
@@ -39,6 +41,9 @@ Além dos campos de login, foi incluido campos para fazer login utilizando conta
     OBS: Esses botões são apenas visuais e não foram implementados, por isso apenas redirecionam para outra página. 
     Só achei uma adição interessante para o visual de uma pagina de login.
 
+## Pagina de Perfil
+
+Após a autenticação, o usuário é redirecionado para a página de "perfil", que apenas contêm o botão de deslogar da conta e o uma mensagem avisando que o usuário está logado.
 
 
 
