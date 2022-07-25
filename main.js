@@ -10,7 +10,7 @@ function autenticacao(){
             }else{
                 document.getElementById("email").classList.add('loginError');
                 document.getElementById("senha").classList.add('loginError');
-                document.getElementById("loginERROR").classList.add('display-none')
+                document.getElementById("loginERROR").classList.remove('display-none')
             }
     }).catch(error =>{
         console.log(error)
